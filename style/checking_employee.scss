@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    min-height: 100vh;
+    background-color: rgb(188, 116, 116);
+
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .clock-container{
+        background-color: rgb(81, 175, 81);
+
+        .clock{
+            background-color: rgb(143, 143, 250);
+            display: flex;
+            justify-content: center;
+            height: 107px;
+            width: 495px;
+            align-items: center;
+            border: solid 26px black;
+
+            .clock-time{
+                font-size: 70px;
+                font-family: inter;
+            }
+        }
+
+        .form-container{
+            background-color: pink;
+        }
+    }
+
+    
+
+
+}

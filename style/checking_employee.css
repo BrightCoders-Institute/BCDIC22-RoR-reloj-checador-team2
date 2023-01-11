@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.main-container {
+  min-height: 100vh;
+  background-color: #bc7474;
+  margin-top: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .main-container .clock-container {
+    background-color: #51af51; }
+    .main-container .clock-container .clock {
+      background-color: #8f8ffa;
+      display: flex;
+      justify-content: center;
+      height: 107px;
+      width: 495px;
+      align-items: center;
+      border: solid 26px black; }
+      .main-container .clock-container .clock .clock-time {
+        font-size: 70px;
+        font-family: inter; }
+    .main-container .clock-container .form-container {
+      background-color: pink; }
+
+/*# sourceMappingURL=checking_employee.css.map */
