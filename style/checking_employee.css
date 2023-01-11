@@ -23,6 +23,59 @@
         font-size: 70px;
         font-family: inter; }
     .main-container .clock-container .form-container {
-      background-color: pink; }
+      background-color: #fffefe;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 22px 0px; }
+      .main-container .clock-container .form-container .check-in-out-form {
+        background-color: purple;
+        margin-top: 10px;
+        padding: 0; }
+        .main-container .clock-container .form-container .check-in-out-form .input-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          padding: 19px 111px; }
+          .main-container .clock-container .form-container .check-in-out-form .input-container div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: red;
+            min-width: 324px;
+            margin-bottom: 13px; }
+            .main-container .clock-container .form-container .check-in-out-form .input-container div input {
+              margin-left: 32px;
+              width: 198px;
+              height: 26px;
+              background: #d9d9d9;
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+              border: none; }
+            .main-container .clock-container .form-container .check-in-out-form .input-container div label {
+              font-family: "Work Sans";
+              font-style: normal;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 23px;
+              letter-spacing: -0.02em;
+              color: #515151; }
+      .main-container .clock-container .form-container .buttons-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center; }
+        .main-container .clock-container .form-container .buttons-container div {
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+        .main-container .clock-container .form-container .buttons-container button {
+          width: 113px;
+          height: 29px;
+          background: #d9d9d9;
+          border-radius: 3px;
+          border: none; }
+
+.check-in-out-form {
+  min-width: 200px; }
 
 /*# sourceMappingURL=checking_employee.css.map */
