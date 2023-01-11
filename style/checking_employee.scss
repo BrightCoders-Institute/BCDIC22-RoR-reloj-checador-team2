@@ -5,28 +5,46 @@
 
 .main-container {
   min-height: 100vh;
-  background-color: rgb(188, 116, 116);
-
+  
   margin-top: 72px;
   display: flex;
   justify-content: center;
   align-items: center;
 
   .clock-container {
-    background-color: rgb(81, 175, 81);
+   
 
     .clock {
-      background-color: rgb(143, 143, 250);
+      background: #d5d7d8;
       display: flex;
       justify-content: center;
-      height: 107px;
-      width: 495px;
+      width: 547px;
+      height: 159px;
       align-items: center;
-      border: solid 26px black;
+      border-radius: 20px;
 
-      .clock-time {
-        font-size: 70px;
-        font-family: inter;
+      .clock-time-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        margin: 10px;
+
+        width: 495px;
+        height: 107px;
+        background: #7b7b7b;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        .clock-time {
+         
+      
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 70px;
+          line-height: 85px;
+          color: #fcfcfc;
+          text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
       }
     }
 
@@ -36,10 +54,12 @@
       justify-content: center;
       align-items: center;
       margin: 22px 0px;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 20px;
 
       .check-in-out-form {
-        background-color: purple;
-        margin-top: 10px;
+        margin-top: 19px;
+        margin-bottom: 19px;
         padding: 0;
 
         .input-container {
@@ -48,13 +68,11 @@
           align-items: center;
           flex-direction: column;
           //background-color: rgb(41, 136, 195);
-          padding: 19px 111px;
 
           div {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: red;
             min-width: 324px;
             margin-bottom: 13px;
             input {
@@ -81,6 +99,7 @@
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        margin-top: 31px;
 
         div {
           display: flex;
@@ -93,6 +112,16 @@
           background: #d9d9d9;
           border-radius: 3px;
           border: none;
+          font-family: "Inter";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 15px;
+          color: #535353;
+          
+        }
+        button:hover{
+           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
       }
     }

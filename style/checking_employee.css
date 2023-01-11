@@ -4,76 +4,97 @@
 
 .main-container {
   min-height: 100vh;
-  background-color: #bc7474;
   margin-top: 72px;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .main-container .clock-container {
-    background-color: #51af51; }
-    .main-container .clock-container .clock {
-      background-color: #8f8ffa;
+  .main-container .clock-container .clock {
+    background: #d5d7d8;
+    display: flex;
+    justify-content: center;
+    width: 547px;
+    height: 159px;
+    align-items: center;
+    border-radius: 20px; }
+    .main-container .clock-container .clock .clock-time-container {
       display: flex;
+      align-items: center;
       justify-content: center;
-      height: 107px;
+      border-radius: 5px;
+      margin: 10px;
       width: 495px;
-      align-items: center;
-      border: solid 26px black; }
-      .main-container .clock-container .clock .clock-time {
+      height: 107px;
+      background: #7b7b7b;
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); }
+      .main-container .clock-container .clock .clock-time-container .clock-time {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
         font-size: 70px;
-        font-family: inter; }
-    .main-container .clock-container .form-container {
-      background-color: #fffefe;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 22px 0px; }
-      .main-container .clock-container .form-container .check-in-out-form {
-        background-color: purple;
-        margin-top: 10px;
-        padding: 0; }
-        .main-container .clock-container .form-container .check-in-out-form .input-container {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-          padding: 19px 111px; }
-          .main-container .clock-container .form-container .check-in-out-form .input-container div {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: red;
-            min-width: 324px;
-            margin-bottom: 13px; }
-            .main-container .clock-container .form-container .check-in-out-form .input-container div input {
-              margin-left: 32px;
-              width: 198px;
-              height: 26px;
-              background: #d9d9d9;
-              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-              border: none; }
-            .main-container .clock-container .form-container .check-in-out-form .input-container div label {
-              font-family: "Work Sans";
-              font-style: normal;
-              font-weight: 700;
-              font-size: 20px;
-              line-height: 23px;
-              letter-spacing: -0.02em;
-              color: #515151; }
-      .main-container .clock-container .form-container .buttons-container {
+        line-height: 85px;
+        color: #fcfcfc;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  .main-container .clock-container .form-container {
+    background-color: #fffefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 22px 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px; }
+    .main-container .clock-container .form-container .check-in-out-form {
+      margin-top: 19px;
+      margin-bottom: 19px;
+      padding: 0; }
+      .main-container .clock-container .form-container .check-in-out-form .input-container {
         display: flex;
-        justify-content: space-evenly;
-        align-items: center; }
-        .main-container .clock-container .form-container .buttons-container div {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; }
+        .main-container .clock-container .form-container .check-in-out-form .input-container div {
           display: flex;
           justify-content: space-between;
-          align-items: center; }
-        .main-container .clock-container .form-container .buttons-container button {
-          width: 113px;
-          height: 29px;
-          background: #d9d9d9;
-          border-radius: 3px;
-          border: none; }
+          align-items: center;
+          min-width: 324px;
+          margin-bottom: 13px; }
+          .main-container .clock-container .form-container .check-in-out-form .input-container div input {
+            margin-left: 32px;
+            width: 198px;
+            height: 26px;
+            background: #d9d9d9;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border: none; }
+          .main-container .clock-container .form-container .check-in-out-form .input-container div label {
+            font-family: "Work Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 23px;
+            letter-spacing: -0.02em;
+            color: #515151; }
+    .main-container .clock-container .form-container .buttons-container {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 31px; }
+      .main-container .clock-container .form-container .buttons-container div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+      .main-container .clock-container .form-container .buttons-container button {
+        width: 113px;
+        height: 29px;
+        background: #d9d9d9;
+        border-radius: 3px;
+        border: none;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #535353; }
+      .main-container .clock-container .form-container .buttons-container button:hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
 
 .check-in-out-form {
   min-width: 200px; }
