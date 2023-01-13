@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.main-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 72px;
+  min-height: 100vh; }
+  .main-container .clock-container .clock {
+    align-items: center;
+    background: #d5d7d8;
+    border-radius: 20px;
+    display: flex;
+    height: 159px;
+    justify-content: center;
+    width: 547px; }
+    .main-container .clock-container .clock .clock-time-container {
+      align-items: center;
+      background: #7b7b7b;
+      border-radius: 5px;
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      display: flex;
+      height: 107px;
+      justify-content: center;
+      margin: 10px;
+      width: 495px; }
+      .main-container .clock-container .clock .clock-time-container .clock-time {
+        color: #fcfcfc;
+        font-family: "Inter";
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 85px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  .main-container .clock-container .form-container {
+    align-items: center;
+    background-color: #fffefe;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    margin: 22px 0px; }
+    .main-container .clock-container .form-container .check-in-out-form {
+      margin-bottom: 19px;
+      margin-top: 19px;
+      padding: 0; }
+      .main-container .clock-container .form-container .check-in-out-form .input-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        .main-container .clock-container .form-container .check-in-out-form .input-container div {
+          align-items: center;
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 13px;
+          min-width: 324px; }
+          .main-container .clock-container .form-container .check-in-out-form .input-container div input {
+            background: #d9d9d9;
+            border: none;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            height: 26px;
+            margin-left: 32px;
+            width: 198px; }
+          .main-container .clock-container .form-container .check-in-out-form .input-container div label {
+            color: #515151;
+            font-family: "Work Sans";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 23px; }
+    .main-container .clock-container .form-container .buttons-container {
+      align-items: center;
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 31px; }
+      .main-container .clock-container .form-container .buttons-container div {
+        align-items: center;
+        display: flex;
+        justify-content: space-between; }
+      .main-container .clock-container .form-container .buttons-container button {
+        background: #d9d9d9;
+        border-radius: 3px;
+        border: none;
+        color: #535353;
+        font-family: "Inter";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        height: 29px;
+        line-height: 15px;
+        width: 113px; }
+      .main-container .clock-container .form-container .buttons-container button:hover {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
+.check-in-out-form {
+  min-width: 200px; }
+
+/*# sourceMappingURL=checking_employee.css.map */
