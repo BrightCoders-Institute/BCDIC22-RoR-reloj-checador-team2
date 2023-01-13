@@ -1,0 +1,1582 @@
+Started GET "/" for ::1 at 2023-01-13 15:19:39 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/iker/.rvm/gems/ruby-3.0.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/iker/.rvm/gems/ruby-3.0.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.4ms | Allocations: 839)
+Completed 200 OK in 11ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 7307)
+
+
+Started GET "/cheking_employee" for ::1 at 2023-01-13 15:25:47 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.4ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 187.8ms | Allocations: 97633)
+Completed 200 OK in 189ms (Views: 188.6ms | Allocations: 98721)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:26:30 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 14206)
+Completed 200 OK in 10ms (Views: 9.5ms | Allocations: 14942)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:29:11 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2401)
+Completed 200 OK in 11ms (Views: 8.9ms | Allocations: 2708)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:29:12 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 28.1ms | Allocations: 2389)
+Completed 200 OK in 30ms (Views: 29.0ms | Allocations: 2695)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:29:12 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 17.9ms | Allocations: 2377)
+Completed 200 OK in 19ms (Views: 18.3ms | Allocations: 2683)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:29:16 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.5ms | Allocations: 204)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 2891)
+Completed 200 OK in 29ms (Views: 23.2ms | Allocations: 3890)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:29:16 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2403)
+Completed 200 OK in 7ms (Views: 6.5ms | Allocations: 2715)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:30:36 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 36.5ms | Allocations: 9019)
+Completed 500 Internal Server Error in 38ms (Allocations: 9310)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "* {": expected "}", was "{"
+        on line 1:4 of app/assets/stylesheets/checking_employee.css.sass
+>> * { {
+
+   ---^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/checking_employee.css.sass:1
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-01-13 15:34:02 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3243)
+Completed 500 Internal Server Error in 10ms (Allocations: 3517)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "* {": expected "}", was "{"
+        on line 1:4 of app/assets/stylesheets/checking_employee.css.sass
+>> * { {
+
+   ---^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_importmap_tags %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/checking_employee.css.sass:1
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2023-01-13 15:35:22 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 32.9ms | Allocations: 6554)
+Completed 200 OK in 35ms (Views: 33.5ms | Allocations: 6860)
+
+
+Started GET "/register_employee" for ::1 at 2023-01-13 15:37:15 -0600
+Processing by MainController#register_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/register_employee.html.erb within layouts/application
+  Rendered main/register_employee.html.erb within layouts/application (Duration: 1.2ms | Allocations: 196)
+  Rendered layout layouts/application.html.erb (Duration: 25.5ms | Allocations: 9233)
+Completed 200 OK in 30ms (Views: 28.3ms | Allocations: 10226)
+
+
+Started GET "/register_employee" for ::1 at 2023-01-13 15:37:54 -0600
+Processing by MainController#register_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/register_employee.html.erb within layouts/application
+  Rendered main/register_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 33.6ms | Allocations: 7663)
+Completed 200 OK in 37ms (Views: 34.8ms | Allocations: 7970)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:40:37 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 2.2ms | Allocations: 194)
+  Rendered layout layouts/application.html.erb (Duration: 34.3ms | Allocations: 9418)
+Completed 200 OK in 36ms (Views: 34.9ms | Allocations: 9781)
+
+
+Started GET "/register_store" for ::1 at 2023-01-13 15:42:28 -0600
+Processing by MainController#register_store as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/register_store.html.erb within layouts/application
+  Rendered main/register_store.html.erb within layouts/application (Duration: 1.1ms | Allocations: 184)
+  Rendered layout layouts/application.html.erb (Duration: 39.7ms | Allocations: 9714)
+Completed 200 OK in 45ms (Views: 43.0ms | Allocations: 10708)
+
+
+Started GET "/register_store" for ::1 at 2023-01-13 15:45:08 -0600
+Processing by MainController#register_store as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/register_store.html.erb within layouts/application
+  Rendered main/register_store.html.erb within layouts/application (Duration: 1.0ms | Allocations: 186)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3075)
+Completed 200 OK in 14ms (Views: 10.0ms | Allocations: 4068)
+
+
+Started GET "/register_store" for ::1 at 2023-01-13 15:45:08 -0600
+Processing by MainController#register_store as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/register_store.html.erb within layouts/application
+  Rendered main/register_store.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2583)
+Completed 200 OK in 4ms (Views: 3.3ms | Allocations: 2890)
+
+
+Started GET "/register_store" for ::1 at 2023-01-13 15:45:09 -0600
+Processing by MainController#register_store as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/register_store.html.erb within layouts/application
+  Rendered main/register_store.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2581)
+Completed 200 OK in 4ms (Views: 3.4ms | Allocations: 2887)
+
+
+Started GET "/register_store" for ::1 at 2023-01-13 15:45:10 -0600
+Processing by MainController#register_store as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/register_store.html.erb within layouts/application
+  Rendered main/register_store.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2576)
+Completed 200 OK in 9ms (Views: 7.5ms | Allocations: 2882)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:45:15 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 1.0ms | Allocations: 194)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2768)
+Completed 200 OK in 10ms (Views: 7.7ms | Allocations: 3130)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:46:59 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 28.4ms | Allocations: 8706)
+Completed 200 OK in 31ms (Views: 29.1ms | Allocations: 9012)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:01 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2645)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 2951)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:02 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2645)
+Completed 200 OK in 9ms (Views: 7.3ms | Allocations: 2951)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:08 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2643)
+Completed 200 OK in 8ms (Views: 6.8ms | Allocations: 2950)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:08 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 2658)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 2964)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:09 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2637)
+Completed 200 OK in 7ms (Views: 6.6ms | Allocations: 2943)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:09 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2653)
+Completed 200 OK in 8ms (Views: 7.2ms | Allocations: 2959)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:09 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2643)
+Completed 200 OK in 8ms (Views: 6.6ms | Allocations: 2949)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:09 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2633)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 2939)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:09 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2645)
+Completed 200 OK in 8ms (Views: 6.7ms | Allocations: 2951)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:10 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2641)
+Completed 200 OK in 8ms (Views: 6.8ms | Allocations: 2947)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:10 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 2637)
+Completed 200 OK in 9ms (Views: 7.8ms | Allocations: 2943)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:10 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2637)
+Completed 200 OK in 9ms (Views: 8.1ms | Allocations: 2943)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:10 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2639)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 2945)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:10 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2629)
+Completed 200 OK in 9ms (Views: 7.7ms | Allocations: 2935)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:10 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2643)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 2949)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:11 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2639)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 2945)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:11 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2658)
+Completed 200 OK in 5ms (Views: 4.2ms | Allocations: 2965)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:11 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2651)
+Completed 200 OK in 8ms (Views: 7.1ms | Allocations: 2957)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:11 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2639)
+Completed 200 OK in 7ms (Views: 6.4ms | Allocations: 2945)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:47:11 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2645)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 2951)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:51:46 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 1.3ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 29.8ms | Allocations: 10133)
+Completed 200 OK in 39ms (Views: 34.4ms | Allocations: 11125)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:51:48 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2635)
+Completed 200 OK in 8ms (Views: 6.7ms | Allocations: 2942)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:52:13 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.8ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3138)
+Completed 200 OK in 12ms (Views: 10.4ms | Allocations: 4130)
+
+
+Started GET "/" for ::1 at 2023-01-13 15:54:36 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.7ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 3152)
+Completed 200 OK in 15ms (Views: 11.5ms | Allocations: 4145)
+
+
+Started GET "/app/assets/images/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:54:36 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:54:36 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2652)
+Completed 200 OK in 3ms (Views: 2.4ms | Allocations: 2959)
+
+
+Started GET "/app/assets/images/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:54:36 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:54:37 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2651)
+Completed 200 OK in 10ms (Views: 8.3ms | Allocations: 2957)
+
+
+Started GET "/app/assets/images/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:54:37 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:54:48 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.4ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 3159)
+Completed 200 OK in 9ms (Views: 6.6ms | Allocations: 4152)
+
+
+Started GET "/app/assets/images/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:54:48 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:54:48 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2667)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 2975)
+
+
+Started GET "/app/assets/images/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:54:48 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:54:49 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2651)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 2957)
+
+
+Started GET "/app/assets/images/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:54:49 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:55:02 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.6ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 3159)
+Completed 200 OK in 27ms (Views: 25.3ms | Allocations: 4151)
+
+
+Started GET "/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:55:03 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:55:03 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2661)
+Completed 200 OK in 11ms (Views: 9.3ms | Allocations: 2968)
+
+
+Started GET "/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:55:03 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:55:04 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2670)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 2976)
+
+
+Started GET "/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:55:04 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:55:05 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2653)
+Completed 200 OK in 8ms (Views: 7.1ms | Allocations: 2959)
+
+
+Started GET "/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:55:05 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:55:09 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.6ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 3164)
+Completed 200 OK in 5ms (Views: 4.3ms | Allocations: 4156)
+
+
+Started GET "/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:55:09 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:55:53 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.8ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 3152)
+Completed 200 OK in 10ms (Views: 8.3ms | Allocations: 4145)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:55:54 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2642)
+Completed 200 OK in 9ms (Views: 7.8ms | Allocations: 2949)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:55:55 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2644)
+Completed 200 OK in 9ms (Views: 7.5ms | Allocations: 2950)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:56:00 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.5ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3143)
+Completed 200 OK in 7ms (Views: 5.6ms | Allocations: 4135)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:56:01 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2667)
+Completed 200 OK in 9ms (Views: 7.3ms | Allocations: 2974)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:56:34 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.6ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 3175)
+Completed 200 OK in 8ms (Views: 6.5ms | Allocations: 4167)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:56:35 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2656)
+Completed 200 OK in 9ms (Views: 7.8ms | Allocations: 2963)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:56:35 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2642)
+Completed 200 OK in 6ms (Views: 5.2ms | Allocations: 2948)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:56:36 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2634)
+Completed 200 OK in 9ms (Views: 7.3ms | Allocations: 2940)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:56:36 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2657)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 2964)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:56:36 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2657)
+Completed 200 OK in 5ms (Views: 4.3ms | Allocations: 2964)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:56:36 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 2655)
+Completed 200 OK in 6ms (Views: 5.0ms | Allocations: 2962)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:56:36 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2652)
+Completed 200 OK in 10ms (Views: 8.5ms | Allocations: 2958)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:57:39 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.9ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3152)
+Completed 200 OK in 13ms (Views: 10.7ms | Allocations: 4144)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:57:52 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.6ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 3166)
+Completed 200 OK in 12ms (Views: 10.1ms | Allocations: 4160)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:57:52 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2651)
+Completed 200 OK in 8ms (Views: 6.7ms | Allocations: 2958)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:57:53 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2655)
+Completed 200 OK in 7ms (Views: 5.2ms | Allocations: 2962)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:57:53 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2664)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 2970)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:57:53 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2646)
+Completed 200 OK in 4ms (Views: 3.3ms | Allocations: 2952)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:57:53 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2644)
+Completed 200 OK in 6ms (Views: 2.8ms | Allocations: 2950)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:57:54 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2661)
+Completed 200 OK in 4ms (Views: 3.2ms | Allocations: 2967)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:57:54 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2657)
+Completed 200 OK in 4ms (Views: 3.2ms | Allocations: 2963)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:57:54 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2647)
+Completed 200 OK in 3ms (Views: 2.8ms | Allocations: 2953)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:57:54 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2651)
+Completed 200 OK in 6ms (Views: 5.4ms | Allocations: 2957)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:58:39 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.5ms | Allocations: 201)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 10673)
+Completed 200 OK in 25ms (Views: 23.7ms | Allocations: 11665)
+
+
+Started GET "/images/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:58:39 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:58:40 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2681)
+Completed 200 OK in 8ms (Views: 6.4ms | Allocations: 2988)
+
+
+Started GET "/images/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:58:40 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:58:40 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2679)
+Completed 200 OK in 9ms (Views: 7.3ms | Allocations: 2985)
+
+
+Started GET "/images/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:58:40 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:58:40 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2655)
+Completed 200 OK in 3ms (Views: 2.8ms | Allocations: 2961)
+
+
+Started GET "/images/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:58:40 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:58:40 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2649)
+Completed 200 OK in 4ms (Views: 3.2ms | Allocations: 2955)
+
+
+Started GET "/images/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:58:40 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:58:40 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2640)
+Completed 200 OK in 7ms (Views: 5.7ms | Allocations: 2946)
+
+
+Started GET "/images/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:58:40 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:58:41 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2657)
+Completed 200 OK in 3ms (Views: 2.7ms | Allocations: 2963)
+
+
+Started GET "/images/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:58:41 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:58:41 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2655)
+Completed 200 OK in 4ms (Views: 3.4ms | Allocations: 2961)
+
+
+Started GET "/images/TIME-CHECKER.svg" for ::1 at 2023-01-13 15:58:41 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME-CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:59:43 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.9ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 3163)
+Completed 200 OK in 9ms (Views: 7.5ms | Allocations: 4155)
+
+
+Started GET "/app/assets/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 15:59:43 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:59:43 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2640)
+Completed 200 OK in 10ms (Views: 9.0ms | Allocations: 2947)
+
+
+Started GET "/app/assets/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 15:59:43 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:59:44 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2647)
+Completed 200 OK in 10ms (Views: 8.6ms | Allocations: 2953)
+
+
+Started GET "/app/assets/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 15:59:44 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:59:44 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2643)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 2949)
+
+
+Started GET "/app/assets/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 15:59:44 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:59:44 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2661)
+Completed 200 OK in 8ms (Views: 7.1ms | Allocations: 2967)
+
+
+Started GET "/app/assets/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 15:59:44 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:59:45 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2661)
+Completed 200 OK in 6ms (Views: 4.8ms | Allocations: 2967)
+
+
+Started GET "/app/assets/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 15:59:45 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:59:45 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2659)
+Completed 200 OK in 8ms (Views: 7.0ms | Allocations: 2965)
+
+
+Started GET "/app/assets/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 15:59:45 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:59:45 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2646)
+Completed 200 OK in 6ms (Views: 4.7ms | Allocations: 2952)
+
+
+Started GET "/app/assets/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 15:59:45 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:59:52 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.5ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 3157)
+Completed 200 OK in 6ms (Views: 4.8ms | Allocations: 4149)
+
+
+Started GET "/app/assets/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 15:59:52 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 15:59:53 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2665)
+Completed 200 OK in 8ms (Views: 7.2ms | Allocations: 2973)
+
+
+Started GET "/app/assets/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 15:59:53 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:00 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.6ms | Allocations: 199)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 3154)
+Completed 200 OK in 8ms (Views: 6.4ms | Allocations: 4146)
+
+
+Started GET "/app/assets/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:00 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:00 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2655)
+Completed 200 OK in 9ms (Views: 7.0ms | Allocations: 2962)
+
+
+Started GET "/app/assets/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:00 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:00 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2659)
+Completed 200 OK in 4ms (Views: 3.3ms | Allocations: 2966)
+
+
+Started GET "/app/assets/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:00 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:00 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2644)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 2950)
+
+
+Started GET "/app/assets/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:00 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:01 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2641)
+Completed 200 OK in 5ms (Views: 3.8ms | Allocations: 2947)
+
+
+Started GET "/app/assets/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:01 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:01 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2663)
+Completed 200 OK in 4ms (Views: 3.1ms | Allocations: 2970)
+
+
+Started GET "/app/assets/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:01 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/app/assets/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:09 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.9ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3153)
+Completed 200 OK in 9ms (Views: 7.6ms | Allocations: 4146)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:10 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2663)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 2970)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:10 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2659)
+Completed 200 OK in 8ms (Views: 6.4ms | Allocations: 2965)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:10 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2659)
+Completed 200 OK in 4ms (Views: 3.3ms | Allocations: 2966)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:11 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2655)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 2961)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:19 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.5ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 3177)
+Completed 200 OK in 9ms (Views: 7.7ms | Allocations: 4169)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:19 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:20 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2665)
+Completed 200 OK in 9ms (Views: 8.2ms | Allocations: 2972)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:20 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:20 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2659)
+Completed 200 OK in 3ms (Views: 2.8ms | Allocations: 2965)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:20 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:25 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.4ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 3153)
+Completed 200 OK in 8ms (Views: 6.3ms | Allocations: 4145)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:25 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:25 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2667)
+Completed 200 OK in 5ms (Views: 4.5ms | Allocations: 2974)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:25 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:25 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2659)
+Completed 200 OK in 6ms (Views: 5.3ms | Allocations: 2965)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:25 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:25 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2647)
+Completed 200 OK in 4ms (Views: 3.0ms | Allocations: 2953)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:25 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:26 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2679)
+Completed 200 OK in 4ms (Views: 3.1ms | Allocations: 2985)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:26 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:26 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2663)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 2969)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:26 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:26 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2663)
+Completed 200 OK in 3ms (Views: 3.0ms | Allocations: 2969)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:26 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:26 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2661)
+Completed 200 OK in 4ms (Views: 3.0ms | Allocations: 2967)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:26 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:26 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2659)
+Completed 200 OK in 4ms (Views: 3.4ms | Allocations: 2965)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:26 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:26 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2655)
+Completed 200 OK in 3ms (Views: 2.7ms | Allocations: 2961)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:26 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:27 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2663)
+Completed 200 OK in 4ms (Views: 3.1ms | Allocations: 2969)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:27 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:27 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2659)
+Completed 200 OK in 3ms (Views: 2.9ms | Allocations: 2965)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:27 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:27 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2655)
+Completed 200 OK in 3ms (Views: 2.6ms | Allocations: 2961)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:27 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:27 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2659)
+Completed 200 OK in 5ms (Views: 4.5ms | Allocations: 2965)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:27 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:27 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.2ms | Allocations: 2659)
+Completed 200 OK in 3ms (Views: 2.4ms | Allocations: 2965)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:27 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:27 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2651)
+Completed 200 OK in 3ms (Views: 2.6ms | Allocations: 2957)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:27 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:27 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 2659)
+Completed 200 OK in 3ms (Views: 2.6ms | Allocations: 2965)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:27 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:28 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2649)
+Completed 200 OK in 5ms (Views: 3.7ms | Allocations: 2955)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:28 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:28 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2649)
+Completed 200 OK in 3ms (Views: 3.0ms | Allocations: 2956)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:28 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:28 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2661)
+Completed 200 OK in 3ms (Views: 2.8ms | Allocations: 2968)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:28 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:00:28 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2651)
+Completed 200 OK in 5ms (Views: 3.7ms | Allocations: 2958)
+
+
+Started GET "/images/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:00:28 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/images/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:01:35 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 1.1ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 3159)
+Completed 200 OK in 9ms (Views: 7.1ms | Allocations: 4152)
+
+
+Started GET "/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:01:35 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:01:35 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2657)
+Completed 200 OK in 9ms (Views: 7.2ms | Allocations: 2965)
+
+
+Started GET "/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:01:35 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/TIME%20-%20CHECKER.svg"):
+  
+Started GET "/" for ::1 at 2023-01-13 16:02:29 -0600
+Processing by MainController#cheking_employee as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cheking_employee.html.erb within layouts/application
+  Rendered main/cheking_employee.html.erb within layouts/application (Duration: 0.9ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 3165)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 4158)
+
+
+Started GET "/TIME%20-%20CHECKER.svg" for ::1 at 2023-01-13 16:02:29 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/TIME%20-%20CHECKER.svg"):
+  
