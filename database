@@ -1,0 +1,24 @@
+Table sucursulas {
+  id_sucursal int [pk, increment] // auto-increment
+  name varchar
+  adress varchar
+}
+
+// If schema name is omitted, it will default to "public" schema.
+Table employee {
+  id_employee int [pk, increment] // auto-increment
+  email varchar
+  name varchar
+  position varchar
+  employee_number int
+  private_number int
+}
+
+Table check_in_out {
+  id_register int [pk, increment] // auto-increment
+  id_employee int [ref: > employee.id_employee] // many-to-one
+  id_sucursal int [ref: > sucursulas.id_sucursal] // many-to-one
+  timestamp datetime
+  check varchar
+}
+
