@@ -1,5 +1,5 @@
 class MainController < ApplicationController
-  def cheking_employee
+  def checking_employee
   end
 
   def register_employee
