@@ -8,4 +8,13 @@ class MainController < ApplicationController
   def register_store
   end
 
+  def crud_employees
+  end
+
+  def crud_store
+  end
+
+  def login_admin
+  end
+
 end
