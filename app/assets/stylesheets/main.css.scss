@@ -1,0 +1,11 @@
+@import './abstracts/variables.css';
+
+@import './layout/navbar';
+@import './layout/footer';
+
+@import './pages/checking_employee';
+@import './pages/crud_employee';
+@import './pages/crud_store';
+@import './pages/login_admin';
+@import './pages/register_employee';
+@import './pages/register_store';

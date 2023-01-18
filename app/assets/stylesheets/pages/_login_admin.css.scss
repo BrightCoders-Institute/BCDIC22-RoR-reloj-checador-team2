@@ -1,44 +1,37 @@
-$h1-color: #515151;
-$form-bg-color: #ffffff;
-$label-color: #696969;
-$placeholder-bg-color: #d9d9d9;
-$button-bg-color: #d9d9d9;
-$button-color: #696969;
-
-* {
-  margin: 0;
-  padding: 0;
-}
+@import '../abstracts/variables.css';
 
 .main-container {
   align-items: center;
+  background-color: $base-color-white;
+  border-top: solid 1px rgb(182, 182, 182);
   display: flex;
   justify-content: center;
   min-height: 100vh;
 
-  .register-container {
+  .login-container {
     height: 283px;
-    width: 547px;
-
+    width: 480px;
     .title-container {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 24px;
+
       h1 {
-        color: $h1-color;
+        color: $base-color-letters-gray;
         font-family: "Work Sans";
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
         height: 42px;
-        left: 303px;
         letter-spacing: -0.02em;
         line-height: 42px;
-        top: 188px;
-        width: 437px;
       }
     }
 
     .form-container form {
       align-items: center;
-      background: $form-bg-color;
+      background: $base-color-white;
       border-radius: 20px;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       display: flex;
@@ -47,7 +40,7 @@ $button-color: #696969;
       justify-content: center;
       left: 307px;
       top: 230px;
-      width: 547px;
+      width: 480px;
 
       .button-container {
         align-items: center;
@@ -57,7 +50,7 @@ $button-color: #696969;
         min-width: 387px;
 
         button {
-          background: $button-bg-color;
+          background: $base-color-input-gray;
           border-radius: 3px;
           border: none;
           cursor: pointer;
@@ -68,15 +61,15 @@ $button-color: #696969;
           width: 113px;
 
           p {
+            color: $base-color-letters-gray;
             font-family: "Inter";
-            color: $button-color;
           }
         }
+
         button:hover {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
       }
-
       .info-container {
         align-items: center;
         display: flex;
@@ -85,7 +78,7 @@ $button-color: #696969;
         min-width: 387px;
 
         label {
-          color: $label-color;
+          color: $base-color-letters-gray;
           font-family: "Work Sans";
           font-size: 20px;
           font-style: normal;
@@ -97,9 +90,9 @@ $button-color: #696969;
           top: 354px;
           width: 56px;
         }
-
+        
         input {
-          background: $placeholder-bg-color;
+          background: $base-color-input-gray;
           border-radius: 5px;
           border: none;
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);

@@ -1,12 +1,4 @@
-$gris-claro: #d5d7d8;
-$gris-obscuro: #7b7b7b;
-$background: #d5d7d8;
-$form-button: #535353;
-
-* {
-  margin: 0;
-  padding: 0;
-}
+@import '../abstracts/variables';
 
 .main-container {
   align-items: center;

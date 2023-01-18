@@ -1,17 +1,4 @@
-$base-color-letters-gray: #515151;
-$base-color-white: white;
-$base-color-input-gray: #d9d9d9;
-$base-colo-button-blue: #9eafeb;
-$base-pink-ligth: #f49c9c;
-$base-yellow-light: #f5f863;
-$font-color-gray: #656565;
-$border-mid-gray: #cdcdcd;
-$border-light-gray: #d9d9d9;
-
-* {
-  margin: 0;
-  padding: 0;
-}
+@import '../abstracts/variables.css';
 
 .main-container {
   align-items: center;
