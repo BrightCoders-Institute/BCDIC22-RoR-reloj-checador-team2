@@ -1,14 +1,4 @@
-$h1-color: #515151;
-$form-bg-color: #ffffff;
-$label-color: #696969;
-$placeholder-bg-color: #d9d9d9;
-$button-bg-color: #d9d9d9;
-$button-color: #696969;
-
-* {
-  margin: 0;
-  padding: 0;
-}
+@import '../abstracts/variables.css';
 
 .main-container {
   align-items: center;
