@@ -1,0 +1,17 @@
+@import '../abstracts/variables.css';
+
+footer {
+  display: flex;
+  justify-content: center;
+
+  p {
+    color: $color-primary;
+    font-family: "Inter";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 18px;
+    margin-top: -167px;
+    text-shadow: $shadow;
+  }
+}
