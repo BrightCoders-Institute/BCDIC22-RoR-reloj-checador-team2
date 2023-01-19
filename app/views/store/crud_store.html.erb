@@ -23,85 +23,23 @@
         </ul>
       </div>
     </section>
-    <section class="employees-table">
-      <ul>
-        <li class="eployees-table-cell">
-          <p>Bodegas Juan</p>
-        </li>
-        <li class="eployees-table-cell">
-          <p>Insurgentes #246. Colima,Colima</p>
-        </li>
-        <li class="buttons-container">
-          <section>
-            <button class="button-edit">Edit</button>
-            <button class="button-delete">Delete</button>
-          </section>
-        </li>
-      </ul>
-    </section>
-    <section class="employees-table">
-      <ul>
-        <li class="eployees-table-cell">
-          <p>Bodegas Juan</p>
-        </li>
-        <li class="eployees-table-cell">
-          <p>Insurgentes #246. Colima,Colima</p>
-        </li>
-        <li class="buttons-container">
-          <section>
-            <button class="button-edit">Edit</button>
-            <button class="button-delete">Delete</button>
-          </section>
-        </li>
-      </ul>
-    </section>
-    <section class="employees-table">
-      <ul>
-        <li class="eployees-table-cell">
-          <p>Bodegas Juan</p>
-        </li>
-        <li class="eployees-table-cell">
-          <p>Insurgentes #246. Colima,Colima</p>
-        </li>
-        <li class="buttons-container">
-          <section>
-            <button class="button-edit">Edit</button>
-            <button class="button-delete">Delete</button>
-          </section>
-        </li>
-      </ul>
-    </section>
-    <section class="employees-table">
-      <ul>
-        <li class="eployees-table-cell">
-          <p>Bodegas Juan</p>
-        </li>
-        <li class="eployees-table-cell">
-          <p>Insurgentes #246. Colima,Colima</p>
-        </li>
-        <li class="buttons-container">
-          <section>
-            <button class="button-edit">Edit</button>
-            <button class="button-delete">Delete</button>
-          </section>
-        </li>
-      </ul>
-    </section>
-    <section class="employees-table">
-      <ul>
-        <li class="eployees-table-cell">
-          <p>Bodegas Juan</p>
-        </li>
-        <li class="eployees-table-cell">
-          <p>Insurgentes #246. Colima,Colima</p>
-        </li>
-        <li class="buttons-container">
-          <section>
-            <button class="button-edit">Edit</button>
-            <button class="button-delete">Delete</button>
-          </section>
-        </li>
-      </ul>
-    </section>
+    <% @stores.each do |store| %>
+      <section class="employees-table">
+        <ul>
+          <li class="eployees-table-cell">
+            <p><%= store.name %></p>
+          </li>
+          <li class="eployees-table-cell">
+            <p><%= store.adress %></p>
+          </li>
+          <li class="buttons-container">
+            <section>
+              <button class="button-edit">Edit</button>
+              <button class="button-delete">Delete</button>
+            </section>
+          </li>
+        </ul>
+      </section>
+    <% end %>
   </div>
 </div>
