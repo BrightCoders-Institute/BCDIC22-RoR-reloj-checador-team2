@@ -3,7 +3,8 @@ class EmployeeController < ApplicationController
     def register_employee
     end
 
-    def crud_employees
+    def index
+      @employees = Employee.all
     end
   
   end
