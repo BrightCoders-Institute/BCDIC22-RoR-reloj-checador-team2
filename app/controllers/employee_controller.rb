@@ -4,8 +4,7 @@ class EmployeeController < ApplicationController
     end
 
     def index
-      @employees = Employee.all
+       @employees = Employee.all
     end
-  
+
   end
-  

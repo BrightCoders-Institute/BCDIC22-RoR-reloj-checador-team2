@@ -1,10 +1,7 @@
 class StoreController < ApplicationController
+  def register_store; end
 
-    def register_store
-    end
-
-    def index
-        @stores = Store.all
-    end
-
+  def crud_store
+    @stores = Store.all
+  end
 end
