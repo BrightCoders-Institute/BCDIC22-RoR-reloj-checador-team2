@@ -3,8 +3,7 @@ class StoreController < ApplicationController
     def register_store
     end
 
-    def crud_store
-
+    def index
         @stores = Store.all
     end
 
