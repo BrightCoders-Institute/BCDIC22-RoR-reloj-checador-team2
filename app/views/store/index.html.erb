@@ -1,0 +1,45 @@
+<div class="main-container">
+  <div class="add-container">
+    <div class="add-button">
+      <span> + </span>
+    </div>
+    <div class="add-text-container">
+      <h1>Add new employee</h1>
+    </div>
+  </div>
+  <div class="table-store-container">
+    <section class="header-table">
+      <div>
+        <ul>
+          <li class="header-table-text">
+            <p>Store Name</p>
+          </li>
+          <li class="header-table-text">
+            <p>Adress</p>
+          </li>
+          <li class="header-table-text">
+            <p>Actions</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <% @stores.each do |store| %>
+      <section class="employees-table">
+        <ul>
+          <li class="eployees-table-cell">
+            <p><%= store.name %></p>
+          </li>
+          <li class="eployees-table-cell">
+            <p><%= store.adress %></p>
+          </li>
+          <li class="buttons-container">
+            <section>
+              <button class="button-edit">Edit</button>
+              <button class="button-delete">Delete</button>
+            </section>
+          </li>
+        </ul>
+      </section>
+    <% end %>
+  </div>
+</div>
