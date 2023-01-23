@@ -1,3 +1,4 @@
+Resolving dependencies...
 <div class="main-container">
   <div class="add-container">
     <div class="add-button">
@@ -9,45 +10,43 @@
   </div>
   <div class="table-container">
     <section class="header-table">
-      <div>
-        <ul>
-          <li class="header-table-text">
-            <p>Email</p>
-          </li>
-          <li class="header-table-text">
-            <p>Name</p>
-          </li>
-          <li class="header-table-text">
-            <p>Position</p>
-          </li>
-          <li class="header-table-text">
-            <p>Number</p>
-          </li>
-          <li class="header-table-text">
-            <p>Private Number</p>
-          </li>
-          <li class="header-table-text">
-            <p>Actions</p>
-          </li>
-        </ul>
-      </div>
+      <ul>
+        <li class="header-table-text">
+          <p>Email</p>
+        </li>
+        <li class="header-table-text">
+          <p>Name</p>
+        </li>
+        <li class="header-table-text">
+          <p>Position</p>
+        </li>
+        <li class="header-table-text">
+          <p>Number</p>
+        </li>
+        <li class="header-table-text">
+          <p>Private Number</p>
+        </li>
+        <li class="header-table-text">
+          <p>Actions</p>
+        </li>
+      </ul>
     </section>
     <% @employees.each do |employee| %>
       <section class="employees-table">
         <ul class= "employees-table-list" >
-          <li class="eployees-table-cell">
+          <li class="employees-table-cell">
             <p><%= employee.email %></p>
           </li>
-          <li class="eployees-table-cell">
+          <li class="employees-table-cell">
             <p><%= employee.name %></p>
           </li>
-          <li class="eployees-table-cell">
+          <li class="employees-table-cell">
             <p><%= employee.position %></p>
           </li>
-          <li class="eployees-table-cell">
+          <li class="employees-table-cell">
             <p><%= employee.employee_number %></p>
           </li>
-          <li class="eployees-table-cell">
+          <li class="employees-table-cell">
             <p><%= employee.private_number %></p>
           </li>
           <li class="buttons-container">
