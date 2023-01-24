@@ -1,3 +1,4 @@
+Resolving dependencies...
 <div class="main-container">
   <div class="add-container">
     <div class="add-button">
@@ -9,19 +10,17 @@
   </div>
   <div class="table-store-container">
     <section class="header-table">
-      <div>
-        <ul>
-          <li class="header-table-text">
-            <p>Store Name</p>
-          </li>
-          <li class="header-table-text">
-            <p>Adress</p>
-          </li>
-          <li class="header-table-text">
-            <p>Actions</p>
-          </li>
-        </ul>
-      </div>
+      <ul>
+        <li class="header-table-text">
+          <p>Store Name</p>
+        </li>
+        <li class="header-table-text">
+          <p>Adress</p>
+        </li>
+        <li class="header-table-text">
+          <p>Actions</p>
+        </li>
+      </ul>
     </section>
     <% @stores.each do |store| %>
       <section class="employees-table">
@@ -33,10 +32,10 @@
             <p><%= store.adress %></p>
           </li>
           <li class="buttons-container">
-            <section>
+            <div>
               <button class="button-edit">Edit</button>
               <button class="button-delete">Delete</button>
-            </section>
+            </div>
           </li>
         </ul>
       </section>
