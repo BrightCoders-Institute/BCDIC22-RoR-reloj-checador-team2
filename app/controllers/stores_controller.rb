@@ -20,6 +20,27 @@ class StoresController < ApplicationController
         render :new, status: :unprocessable_entity
       end
     end
+
+    def edit
+      @store = Store.find(params[:id])
+    end
+  
+    def update
+      @store = Store.find(params[:id])
+  
+      if @store.update(store_params)
+        redirect_to '/stores'
+      else
+        render :edit, status: :unprocessable_entity
+      end
+    end
+  
+    def destroy
+      @store = Store.find(params[:id])
+      @store.destroy
+  
+      redirect_to stores_path, status: :see_other
+    end
   
     private
       def store_params

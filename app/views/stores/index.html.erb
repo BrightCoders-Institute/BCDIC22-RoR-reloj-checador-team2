@@ -32,8 +32,11 @@
           </li>
           <li class="buttons-container">
             <div>
-              <button class="button-edit">Edit</button>
-              <button class="button-delete">Delete</button>
+              <button class="button-edit"><%= link_to "Edit", edit_store_path(store)%></button>
+              <button class="button-delete"><%= link_to "Delete", store_path(store), data: {
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?"
+                  } %></button>
             </div>
           </li>
         </ul>

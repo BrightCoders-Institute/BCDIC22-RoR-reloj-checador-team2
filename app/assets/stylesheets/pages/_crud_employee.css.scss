@@ -120,13 +120,17 @@
             border-radius: 3px;
             border: none;
             color: $font-color-gray;
-
             cursor: pointer;
             height: 29px;
             left: 1063px;
             top: 295px;
             transition: all 0.3s ease 0s;
             width: 60px;
+
+            a {
+              text-decoration: none;
+              color: $font-color-gray;
+            }
           }
           .button-delete:hover {
             box-shadow: 0px 15px 20px base-color-letters-gray;
@@ -144,6 +148,11 @@
             top: 295px;
             transition: all 0.3s ease 0s;
             width: 59px;
+
+            a {
+              text-decoration: none;
+              color: $font-color-gray;
+            }
           }
           .button-edit:hover {
             box-shadow: 0px 15px 20px base-color-letters-gray;
