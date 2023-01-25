@@ -36,6 +36,12 @@
 
   .add-text-container {
     margin-left: 17px;
+
+    a {
+      text-decoration: none;
+      color: $font-color-gray;
+    }
+
     h1 {
       color: $font-color-gray;
       font-family: "Inter";
