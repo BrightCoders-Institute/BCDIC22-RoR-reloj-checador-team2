@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   get '/login_admin', to: "main#login_admin"
   get '/register_employee', to: "employee#register_employee"
   get '/employees', to: "employee#index"
-  get '/register_store', to: "store#register_store"
-  get '/stores', to: "store#index"
+
+  resources :stores
 end
