@@ -1,0 +1,35 @@
+<div class="main-container">
+  <div class="clock-container">
+    <section class="clock">
+      <div class="clock-time-container">
+        <h1 class="clock-time">
+          <%= Time.now.strftime("%H:%M")%>
+        </h1>
+      </div>
+    </section>
+    <section class="form-container">
+      <%= form_with url: checks_path, method: :post do |form| %>
+        <div class="input-container">
+          <div>
+            <%= form.label :employee %>
+          </div>
+          <div>
+            <%= form.number_field :employee %>
+          </div>
+        </div>
+        <div class="input-container">
+          <div>
+            <%= form.label :number_private %>
+          </div>
+          <div>
+            <%= form.password_field :number_private%>
+          </div>
+        </div>
+        <div class="buttons-container">
+          <%= form.button "Check in", name:"check", value:"in" %>
+          <%= form.button "Check out", name:"check", value:"out" %>
+        </div>
+      <% end %>
+    </section>
+  </div>
+</div>
