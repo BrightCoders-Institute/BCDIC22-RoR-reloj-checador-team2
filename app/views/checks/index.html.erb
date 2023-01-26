@@ -11,19 +11,26 @@
       <%= form_with url: checks_path, method: :post do |form| %>
         <div class="input-container">
           <div>
-            <%= form.label :employee %>
+            <%= form.label :employee_number %>
           </div>
           <div>
-            <%= form.number_field :employee %>
+            <%= form.number_field :employee_number %>
           </div>
         </div>
         <div class="input-container">
           <div>
-            <%= form.label :number_private %>
+            <%= form.label :private_number %>
           </div>
           <div>
-            <%= form.password_field :number_private%>
+            <%= form.password_field :private_number%>
           </div>
+        </div>
+        <div class="message">
+          <% flash.each do |key, value| %>
+            <div class="message__content <%= key %>">
+              <%= value %>
+            </div>
+          <% end %>
         </div>
         <div class="buttons-container">
           <%= form.button "Check in", name:"check", value:"in" %>
