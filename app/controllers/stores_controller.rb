@@ -1,10 +1,10 @@
 class StoresController < ApplicationController
+  before_action :set_store, only: [:show, :edit, :update, :destroy]
   def index
     @stores = Store.all
   end
 
   def show
-    set_store
   end
 
   def new
@@ -21,11 +21,9 @@ class StoresController < ApplicationController
   end
 
   def edit
-    set_store
   end
 
   def update
-    set_store
     if @store.update(store_params)
       redirect_to '/stores'
     else
@@ -34,7 +32,6 @@ class StoresController < ApplicationController
   end
 
   def destroy
-    set_store
     @store.destroy
     redirect_to stores_path, status: :see_other
   end
