@@ -29,6 +29,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_01_26_212658) do
     t.string "position"
     t.integer "employee_number"
     t.integer "private_number"
+    t.string "status"
+    t.integer "id_store"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -13,7 +13,7 @@ class EmployeesController < ApplicationController
   end
 
   def create
-    @employee = Employee.new(employee_params)
+    @employee = Employee.new(employee_params.merge(status: 'Active'))
     if @employee.save
       redirect_to '/employees'
     else
@@ -37,10 +37,16 @@ class EmployeesController < ApplicationController
     redirect_to employees_path, status: :see_other
   end
 
+  def change
+    @employee = Employee.find(params[:id])
+    @employee.update(status: params[:status])
+    redirect_to ...
+  end
+
   private
 
   def employee_params
-    params.require(:employee).permit(:email, :name, :position, :employee_number, :private_number)
+    params.require(:employee).permit(:email, :name, :position, :employee_number, :private_number, :id_store)
   end
 
   def set_employee

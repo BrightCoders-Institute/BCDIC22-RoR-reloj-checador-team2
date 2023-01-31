@@ -3,5 +3,7 @@ Rails.application.routes.draw do
   get '/login_admin', to: "main#login_admin"
   resources :checks
   resources :stores
-  resources :employees
+  resources :employees do
+    post :change, on: :member
+  end
 end
