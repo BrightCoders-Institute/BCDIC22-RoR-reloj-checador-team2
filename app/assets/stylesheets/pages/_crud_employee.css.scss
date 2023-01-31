@@ -26,6 +26,10 @@
       justify-content: center;
       transition: all 0.3s ease 0s;
       width: 47px;
+
+      span a{
+        text-decoration: none;
+      }
     }
 
     .add-button:hover {
@@ -138,8 +142,8 @@
             width: 60px;
 
             a {
-              text-decoration: none;
               color: $font-color-gray;
+              text-decoration: none;
             }
           }
 
@@ -162,8 +166,8 @@
             width: 59px;
 
             a {
-              text-decoration: none;
               color: $font-color-gray;
+              text-decoration: none;
             }
           }
 

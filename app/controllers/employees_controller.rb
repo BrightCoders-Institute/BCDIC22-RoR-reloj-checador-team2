@@ -1,12 +1,11 @@
 class EmployeesController < ApplicationController
-  def register_employee; end
+  before_action :set_employee, only: [:show, :edit, :update, :destroy]
 
   def index
     @employees = Employee.all
   end
 
   def show
-    set_employee
   end
 
   def new
@@ -23,11 +22,9 @@ class EmployeesController < ApplicationController
   end
 
   def edit
-    set_employee
   end
 
   def update
-    set_employee
     if @employee.update(employee_params)
       redirect_to '/employees'
     else
@@ -36,7 +33,6 @@ class EmployeesController < ApplicationController
   end
 
   def destroy
-    set_employee
     @employee.destroy
     redirect_to employees_path, status: :see_other
   end

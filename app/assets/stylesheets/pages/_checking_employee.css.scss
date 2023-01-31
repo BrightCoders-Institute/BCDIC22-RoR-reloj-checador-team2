@@ -48,23 +48,22 @@
       justify-content: center;
       margin: 22px 0px;
 
-      .check-in-out-form {
-        margin-bottom: 19px;
-        margin-top: 19px;
+      form {
+        margin: 25px 0 19px;
         padding: 0;
 
         .input-container {
           align-items: center;
           display: flex;
-          flex-direction: column;
-          justify-content: center;
+          flex-direction: row;
+          justify-content: space-between;
 
           div {
-            align-items: center;
+            align-items: flex-start;
             display: flex;
-            justify-content: space-between;
-            margin-bottom: 13px;
-            min-width: 324px;
+            justify-content: center;
+            margin: 7px 0;
+
             input {
               background: $gris-claro;
               border: none;
@@ -115,7 +114,4 @@
       }
     }
   }
-}
-.check-in-out-form {
-  min-width: 200px;
 }
