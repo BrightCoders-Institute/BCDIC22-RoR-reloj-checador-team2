@@ -13,7 +13,7 @@ class EmployeesController < ApplicationController
   end
 
   def create
-    @employee = Employee.new(employee_params.merge(status: 'Active'))
+    @employee = Employee.new(employee_params)
     if @employee.save
       redirect_to '/employees'
     else
