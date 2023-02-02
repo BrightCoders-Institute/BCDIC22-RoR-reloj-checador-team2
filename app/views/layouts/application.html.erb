@@ -10,16 +10,19 @@
   </head>
   <body>
     <nav>
-    
-      <div><img src= "TIME-CHECKER.svg" alt="" class="logo"> </div>
-      <div><button class="nav-button" >Admin</button></div>
+      <div>
+        <%= link_to root_path do %>
+          <%= image_tag "logo.svg", class: "logo" %>
+        <% end %>
+      </div>
+      <div><button class="nav-button" ><%= link_to "Admin" , logins_path%></button></div>
     </nav>
     <%= yield %>
-      <footer>
-        <p>© - Team 2 - Iker Toscano,
-            Diego Morales,
-            Everardo Alcaraz
-        </p>
-      </footer>
+    <footer>
+      <p>© - Team 2 - Iker Toscano,
+        Diego Morales,
+        Everardo Alcaraz
+      </p>
+    </footer>
   </body>
 </html>
