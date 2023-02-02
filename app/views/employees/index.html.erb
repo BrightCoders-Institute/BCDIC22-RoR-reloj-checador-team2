@@ -26,6 +26,12 @@
           <p>Private Number</p>
         </li>
         <li class="header-table-text">
+          <p>Store</p>
+        </li>
+        <li class="header-table-text">
+          <p>Status</p>
+        </li>
+        <li class="header-table-text">
           <p>Actions</p>
         </li>
       </ul>
@@ -48,13 +54,20 @@
           <li class="employees-table-cell">
             <p><%= employee.private_number %></p>
           </li>
+          <li class="employees-table-cell">
+            <p><%=Store.find(employee.id_store).name%></p>
+          </li>
+          <li class="employees-table-cell">
+            <p><%= employee.status %></p>
+          </li>
           <li class="buttons-container">
             <div>
               <button class="button-edit"><%= link_to "Edit", edit_employee_path(employee)%></button>
-              <button class="button-delete"><%= link_to "Delete", employee_path(employee), data: {
-                    turbo_method: :delete,
-                    turbo_confirm: "Are you sure???"
-                  } %></button>
+              <% if employee.status == 'Active' %>
+                <%= button_to "Inactive", change_employee_path(employee, status: 'Inactive'), method: :post, class: "button-delete" %>
+              <% else %>
+                <%= button_to "Active", change_employee_path(employee, status: 'Active'), method: :post, class: "button-delete" %>
+              <%end%>
             </div>
           </li>
         </ul>
