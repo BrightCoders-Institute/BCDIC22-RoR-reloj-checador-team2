@@ -1,11 +1,11 @@
  <%= form_with model: @store do |form| %>
   <div class="info-container">
     <%= form.label :name %><br>
-    <%= form.text_field :name %>
+    <%= form.text_field :name, :required => true %>
   </div>
   <div class="info-container">
     <%= form.label :adress %><br>
-    <%= form.text_field :adress %>
+    <%= form.text_field :adress, :required => true %>
   </div>
   <div class="button-container">
     <%= form.submit %>

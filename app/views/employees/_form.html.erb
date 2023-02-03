@@ -1,23 +1,23 @@
 <%= form_with model: employee do |form| %>
     <div class="info-container">
         <%= form.label :email %><br>
-        <%= form.text_field :email %>
+        <%= form.text_field :email, :required => true %>
     </div>
     <div class="info-container">
         <%= form.label :name %><br>
-        <%= form.text_field :name %>
+        <%= form.text_field :name, :required => true %>
     </div>
     <div class="info-container">
         <%= form.label :position %><br>
-        <%= form.text_field :position %>
+        <%= form.text_field :position, :required => true %>
     </div>
     <div class="info-container">
         <%= form.label :employee_number %><br>
-        <%= form.text_field :employee_number %>
+        <%= form.text_field :employee_number, :required => true %>
     </div>
     <div class="info-container">
         <%= form.label :private_number %><br>
-        <%= form.text_field :private_number %>
+        <%= form.text_field :private_number, :required => true %>
     </div>
   <div class="info-container">
     <%= form.label :Store %><br>

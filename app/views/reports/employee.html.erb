@@ -1,0 +1,54 @@
+<div class="main-container">
+    <section class="title-container">
+      <h1> <%= @employee.name%> report</h1>
+    </section>
+  <div class="table-container">
+    <section class="header-table">
+      <ul>
+        <li class="header-table-text">
+          <p>Employee</p>
+        </li>
+        <li class="header-table-text">
+          <p>Day</p>
+        </li>
+        <li class="header-table-text">
+          <p>Date</p>
+        </li>
+        <li class="header-table-text">
+          <p>Hour</p>
+        </li>
+        <li class="header-table-text">
+          <p>Check</p>
+        </li>
+      </ul>
+    </section>
+    <% @checks.each do |check| %>
+      <section class="employees-table">
+        <ul class= "employees-table-list" >
+          <li class="employees-table-cell">
+            <p><%= Employee.find(check.id_employee).name  %></p>
+          </li>
+
+          <li class="employees-table-cell">
+            <p><%= check.timestamp.strftime("%a") %></p>
+          </li>
+
+          <li class="employees-table-cell">
+            <p><%= check.timestamp.strftime("%d %b %Y") %></p>
+          </li>
+
+          <li class="employees-table-cell">
+            <p><%= check.timestamp.strftime("%H:%M") %></p>
+          </li>
+ 
+          <li class="employees-table-cell">
+            <p><%= check.check %></p>
+          </li>
+      
+        </ul>
+      </section>
+    <%end%>
+  </section>
+</div>
+</div>
+

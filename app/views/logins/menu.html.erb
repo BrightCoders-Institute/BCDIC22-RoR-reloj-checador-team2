@@ -6,19 +6,25 @@
     <section class="form-container">
       <form action="">
         <div class="button-container">
-          <button>
-            <p><%= link_to "Employees" , employees_path%></p>
-          </button>
+          <%= link_to employees_path do %>
+            <button>
+              <p>Employees</p>
+            </button>
+          <% end %>
         </div>
         <div class="button-container">
-          <button>
-            <p><%= link_to "Stores" , stores_path%></p>
-          </button>
+          <%= link_to stores_path do %>
+            <button>
+              <p>Stores</p>
+            </button>
+          <% end %>
         </div>
         <div class="button-container">
-          <button>
-            <p><%= link_to "Reports" , logins_path%></p>
-          </button>
+          <%= link_to reports_path do %>
+            <button>
+              <p>Reports</p>
+            </button>
+          <% end %>
         </div>
       </form>
     </section>
