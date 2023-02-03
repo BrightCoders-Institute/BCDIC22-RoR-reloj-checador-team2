@@ -15,7 +15,11 @@
           <%= image_tag "logo.svg", class: "logo" %>
         <% end %>
       </div>
-      <div><button class="nav-button" ><%= link_to "Admin" , logins_path%></button></div>
+       <%= link_to logins_path do %>
+            <button class="nav-button">
+              <p>Admin</p>
+            </button>
+          <% end %>
     </nav>
     <%= yield %>
     <footer>

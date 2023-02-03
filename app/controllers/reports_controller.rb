@@ -22,7 +22,15 @@ class ReportsController < ApplicationController
         hour, minute = timestamp.split(':')
         total_minutes = hour.to_i * 60 + minute.to_i
       end.inject(:+)/size
-      "#{avg_minutes/60}:#{avg_minutes%60}"
+      horas = (avg_minutes/60).to_s
+      minutos = (avg_minutes%60).to_s
+      if horas.length == 1 
+        horas = "0"+horas
+      end
+      if minutos.length == 1
+        minutos = "0"+minutos
+      end
+      "#{horas}:#{minutos}"
     else
       0
     end
