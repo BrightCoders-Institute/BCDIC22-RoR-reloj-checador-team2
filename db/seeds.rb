@@ -43,3 +43,6 @@ for day in 2...8
   end
   employee_number = 0
 end
+
+User.create!({:email => "admin@gmail.com", :password => "123456", :password_confirmation => "123456" })
+User.create!({:email => "iker@gmail.com", :password => "123456", :password_confirmation => "123456" })
