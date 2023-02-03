@@ -1,0 +1,53 @@
+<div class="main-container">
+    <section class="title-container">
+      <h1>Store report</h1>
+    </section>
+  <div class="table-container">
+    <section class="header-table">
+      <ul>
+        <li class="header-table-text">
+          <p>Name</p>
+        </li>
+        <li class="header-table-text">
+          <p>Adress</p>
+        </li>
+        <li class="header-table-text">
+          <p>Employees</p>
+        </li>
+        <li class="header-table-text">
+          <p>Avg. in</p>
+        </li>
+        <li class="header-table-text">
+          <p>Avg. out</p>
+        </li>
+      </ul>
+    </section>
+    <% @stores.each_with_index do |store, index| %>
+      <section class="employees-table">
+        <ul class= "employees-table-list" >
+          <li class="employees-table-cell">
+            <p><%= store.name %></p>
+          </li>
+          <li class="employees-table-cell">
+            <p><%= store.adress %></p>
+          </li>
+          <li class="employees-table-cell">
+            <p><%= Check.where(id_sucursal: store.id).distinct.pluck(:id_employee).length%></p>
+          </li>
+          <li class="employees-table-cell">
+            <p><%= @avgin[index] %></p>
+          </li>
+          <li class="employees-table-cell">
+            <p><%= @avgout[index] %></p>
+          </li>
+          <li class="buttons-container">
+            <div>
+              <button class="button-edit"> <%= link_to "Details" , report_path(store) %></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    <%end%>
+  </section>
+</div>
+</div>
