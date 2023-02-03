@@ -8,5 +8,7 @@ Rails.application.routes.draw do
   resources :employees do
     post :change, on: :member
   end
-  resources :reports
+  resources :reports do
+    get :employee, on: :member
+  end
 end

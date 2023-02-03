@@ -14,6 +14,11 @@ class ReportsController < ApplicationController
     @checks = Check.where(id_sucursal: params[:id])
   end
 
+  def employee
+    @employee = Employee.find(params[:id])
+    @checks = Check.where(id_employee: params[:id])
+  end
+
   def avg_of_times(array_of_time)
     size = array_of_time.size
     if (size != 0)

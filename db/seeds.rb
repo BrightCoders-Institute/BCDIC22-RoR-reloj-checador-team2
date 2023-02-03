@@ -1,25 +1,25 @@
 Store.create(name: 'Nike', adress: 'San Fernando')
 Store.create(name: 'Pollo loco', adress: 'San Sebastian')
 Store.create(name: 'KFC', adress: 'La estación')
-Employee.create(email: 'ever@123', name: 'Ever', position: 'Cajero', employee_number: 1, private_number: 1, status: 'Active',
+Employee.create(email: 'Maria@gmail.com', name: 'Ever', position: 'Cajero', employee_number: 1, private_number: 1, status: 'Active',
                 id_store: 1)
-Employee.create(email: 'armando@gmail.com', name: 'Armando', position: 'Recursos humanos', employee_number: 2,
+Employee.create(email: 'Lidia@gmail.com', name: 'Armando', position: 'Recursos', employee_number: 2,
                 private_number: 2, status: 'Active', id_store: 1)
-Employee.create(email: 'sebastian.com', name: 'sebastian', position: 'Limpiador', employee_number: 3, private_number: 3,
+Employee.create(email: 'Juana@gmail.com', name: 'sebastian', position: 'Limpiador', employee_number: 3, private_number: 3,
                 status: 'Active', id_store: 1)
-Employee.create(email: 'ricardo@gmail.com', name: 'Ricardo', position: 'Lider', employee_number: 4, private_number: 4,
+Employee.create(email: 'Rocio@gmail.com', name: 'Ricardo', position: 'Lider', employee_number: 4, private_number: 4,
                 status: 'Active', id_store: 1)
-Employee.create(email: 'diego@gmail.com', name: 'Diego', position: 'Recursos humanos', employee_number: 5, private_number: 5,
+Employee.create(email: 'Diego@gmail.com', name: 'Diego', position: 'Recursos', employee_number: 5, private_number: 5,
                 status: 'Active', id_store: 2)
-Employee.create(email: 'iker@gmail.com', name: 'Iker', position: 'Produccion', employee_number: 6, private_number: 6,
+Employee.create(email: 'Elisa@gmail.com', name: 'Iker', position: 'Produccion', employee_number: 6, private_number: 6,
                 status: 'Active', id_store: 2)
-Employee.create(email: 'omar@gmail.com', name: 'Omar', position: 'Cajero', employee_number: 7, private_number: 7,
+Employee.create(email: 'Luisa@gmail.com', name: 'Omar', position: 'Cajero', employee_number: 7, private_number: 7,
                 status: 'Active', id_store: 2)
-Employee.create(email: 'francisco@gmail.com', name: 'Francisco', position: 'Calidad', employee_number: 8, private_number: 8,
+Employee.create(email: 'Diego@gmail.com', name: 'Francisco', position: 'Calidad', employee_number: 8, private_number: 8,
                 status: 'Active', id_store: 2)
-Employee.create(email: 'goku@gmail.com', name: 'goku', position: 'Produccion', employee_number: 9, private_number: 9,
+Employee.create(email: 'Sofía@gmail.com', name: 'goku', position: 'Produccion', employee_number: 9, private_number: 9,
                 status: 'Active', id_store: 3)
-Employee.create(email: 'vegeta@gmail.com', name: 'Vegeta', position: 'Gerente', employee_number: 10, private_number: 10,
+Employee.create(email: 'Irene@gmail.com', name: 'Vegeta', position: 'Gerente', employee_number: 10, private_number: 10,
                 status: 'Active', id_store: 3)
 Employee.create(email: 'manuel@gmail.com', name: 'Manuel', position: 'Cajero', employee_number: 11, private_number: 11,
                 status: 'Active', id_store: 3)

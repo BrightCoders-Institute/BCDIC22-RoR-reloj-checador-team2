@@ -1,6 +1,6 @@
 <div class="main-container">
     <section class="title-container">
-      <h1> <%= @store.name%> report</h1>
+      <h1> <%= @employee.name%> report</h1>
     </section>
   <div class="table-container">
     <section class="header-table">
@@ -24,9 +24,7 @@
     </section>
     <% @checks.each do |check| %>
       <section class="employees-table">
-
         <ul class= "employees-table-list" >
-
           <li class="employees-table-cell">
             <p><%= Employee.find(check.id_employee).name  %></p>
           </li>
@@ -45,12 +43,6 @@
  
           <li class="employees-table-cell">
             <p><%= check.check %></p>
-          </li>
-
-          <li class="buttons-container">
-            <div>
-              <button class="button-edit"> <%= link_to "Details" , employee_report_path(check.id_employee) %></button>
-            </div>
           </li>
       
         </ul>
