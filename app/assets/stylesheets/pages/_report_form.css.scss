@@ -1,32 +1,26 @@
 .report-button{
-  width: 168px;
+  background: #7B7B7B;
   height: 77px;
   left: 513px;
-  top: 284px;
-  background: #7B7B7B;
   margin-bottom: 20px;
+  top: 284px;
+  width: 168px;
 }
 .p{
-    
-    width: 166px;
-    height: 23px;
-    left: 550px;
-    top: 311px;
-
-    /* Header 2 */
+    color: #FFFFFF;
     font-family: 'Work Sans';
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 23px;
+    height: 23px;
+    left: 550px;
     letter-spacing: -0.02em;
-
-    color: #FFFFFF;
+    line-height: 23px;
+    top: 311px;
+    width: 166px;
 }
 .button-container{
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
-
 }
