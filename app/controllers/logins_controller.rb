@@ -1,15 +1,9 @@
 class LoginsController < ApplicationController
 
-  def login_admin
-  end
+  def login_admin; end
 
-  def index
+  def index; end
 
-  end
-
-  def menu
-
-  end
-
+  def menu; end
 
 end
