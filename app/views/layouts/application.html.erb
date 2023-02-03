@@ -15,18 +15,22 @@
           <%= image_tag "logo.svg", class: "logo" %>
         <% end %>
       </div>
-       <%= link_to logins_path do %>
-            <button class="nav-button">
-              <p>Admin</p>
-            </button>
-          <% end %>
+
+      <%if user_signed_in? %>
+        <%= current_user.email %>
+        <%= link_to destroy_user_session_path, :method => 'delete' do %>
+          <button class="nav-button">
+            <p>Log out</p>
+          </button>
+        <% end %>
+      <%else%>
+        <%= link_to logins_path do %>
+          <button class="nav-button">
+            <p>Log in</p>
+          </button>
+        <% end %>
+      <% end %>
     </nav>
-    <% if notice %>
-      <p class="alert alert-success"><%= notice %></p>
-    <% end %>
-    <% if alert %>
-      <p class="alert alert-danger"><%= alert %></p>
-    <% end %>
     <%= yield %>
     <footer>
       <p>© - Team 2 - Iker Toscano,

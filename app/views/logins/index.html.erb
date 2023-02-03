@@ -1,32 +1,28 @@
 <div class="main-container">
   <div class="login-container">
     <section class="title-container">
-      <h1>Log-in</h1>
+      <h1>Menu Options</h1>
     </section>
-    <p class="navbar-text float-right">
-<% if user_signed_in? %>
-  Logged in as <strong><%= current_user.email %></strong>.
-  <%= link_to 'Edit profile', edit_user_registration_path, :class => 'navbar-link' %> |
-  <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'navbar-link'  %>
-<% else %>
-  <%= link_to "Sign up", new_user_registration_path, :class => 'navbar-link'  %> |
-  <%= link_to "Login", new_user_session_path, :class => 'navbar-link'  %>
-<% end %>
-</p>
     <section class="form-container">
       <form action="">
-        <div class="info-container">
-          <label for="">Admin</label>
-          <input type="text" name="" id="" placeholder="  Admin name...">
-        </div>
-        <div class="info-container">
-          <label for="">Password</label>
-          <input type="text" name="" id="" placeholder="  Password...">
+        <div class="button-container">
+          <%= link_to employees_path do %>
+            <button>
+              <p>Employees</p>
+            </button>
+          <% end %>
         </div>
         <div class="button-container">
-          <%= link_to menu_path do %>
+          <%= link_to stores_path do %>
             <button>
-              <p>Login</p>
+              <p>Stores</p>
+            </button>
+          <% end %>
+        </div>
+        <div class="button-container">
+          <%= link_to reports_path do %>
+            <button>
+              <p>Reports</p>
             </button>
           <% end %>
         </div>
