@@ -64,7 +64,9 @@
   .table-container {
     background-color: $base-color-white;
     height: 700px;
+    height: 800px;
     margin-top: 47px;
+    overflow: auto;
     width: 1070px;
 
     .header-table {
@@ -99,6 +101,8 @@
       .employees-table-list {
         display: flex;
 
+
+
         .employees-table-cell {
           align-items: center;
           background: $border-light-gray;
@@ -112,6 +116,7 @@
           padding: 5px;
           width: 167px;
 
+
           p {
             color: $font-color-gray;
             font-family: "Montserrat";
@@ -121,6 +126,7 @@
             top: 305px;
           }
         }
+
 
         .buttons-container {
           background-color: $base-color-white;
@@ -137,6 +143,7 @@
             cursor: pointer;
             height: 29px;
             left: 1063px;
+            margin: 5px;
             top: 295px;
             transition: all 0.3s ease 0s;
             width: 60px;
@@ -161,6 +168,7 @@
             cursor: pointer;
             height: 29px;
             left: 999px;
+            margin: 5px;
             top: 295px;
             transition: all 0.3s ease 0s;
             width: 59px;

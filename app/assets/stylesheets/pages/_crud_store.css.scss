@@ -1,4 +1,4 @@
-@import '../abstracts/variables.css';
+@import "../abstracts/variables.css";
 
 .main-container {
   align-items: center;
@@ -27,7 +27,7 @@
       transition: all 0.3s ease 0s;
       width: 47px;
 
-      span a{
+      span a {
         text-decoration: none;
       }
     }
@@ -58,7 +58,9 @@
 
   .table-store-container {
     background-color: $base-color-white;
+    height: 800px;
     margin-top: 47px;
+    overflow: auto;
     width: 980px;
 
     .header-table {
