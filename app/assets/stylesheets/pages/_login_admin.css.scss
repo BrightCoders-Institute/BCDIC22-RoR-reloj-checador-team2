@@ -11,6 +11,7 @@
   .login-container {
     height: 283px;
     width: 480px;
+
     .title-container {
       align-items: center;
       display: flex;
@@ -70,6 +71,7 @@
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         }
       }
+
       .info-container {
         align-items: center;
         display: flex;
@@ -90,7 +92,7 @@
           top: 354px;
           width: 56px;
         }
-        
+
         input {
           background: $base-color-input-gray;
           border-radius: 5px;

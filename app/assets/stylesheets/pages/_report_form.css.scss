@@ -1,4 +1,6 @@
-.report-button{
+@import '../abstracts/variables.css';
+
+.report-button {
   background: #7B7B7B;
   height: 77px;
   left: 513px;
@@ -6,22 +8,41 @@
   top: 284px;
   width: 168px;
 }
-.p{
-    color: #FFFFFF;
-    font-family: 'Work Sans';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    height: 23px;
-    left: 550px;
-    letter-spacing: -0.02em;
-    line-height: 23px;
-    top: 311px;
-    width: 166px;
-}
-.button-container{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
+
+.p {
+  color: $white;
+  font-family: 'Work Sans';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  height: 23px;
+  left: 550px;
+  letter-spacing: -0.02em;
+  line-height: 23px;
+  top: 311px;
+  width: 166px;
 }
 
+.button-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  input {
+    align-self: flex-end;
+    background: $placeholder-bg-color;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    height: 26px;
+    left: 495px;
+    padding-left: 5px;
+    top: 390px;
+    width: 264px;
+  }
+
+  input:hover {
+    background-color: $placeholder-bg-color-hover;
+  }
+}

@@ -1,0 +1,22 @@
+<div class="main-container">
+  <div class="login-container">
+    <section class="title-container">
+      <h1>Log-in</h1>
+    </section>
+    <section class="form-container">
+      <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+        <div class="info-container">
+          <%= f.label :email %><br />
+          <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+        </div>
+        <div class="info-container">
+          <%= f.label :password %><br />
+          <%= f.password_field :password, autocomplete: "current-password" %>
+        </div>
+        <div class="button-container">
+          <%= f.submit "Log in" %>
+        </div>
+      <% end %>
+    </section>
+  </div>
+</div>
