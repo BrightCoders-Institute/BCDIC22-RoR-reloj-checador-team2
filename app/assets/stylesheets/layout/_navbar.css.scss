@@ -1,40 +1,42 @@
 @import '../abstracts/variables.css';
 
-nav{
-    align-items: center;
-    background-color: #D9D9D9;    ;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    display: flex;
+nav {
+  align-items: center;
+  background-color: $placeholder-bg-color-hover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 72px;
+  justify-content: space-between;
+
+  .logo {
+    filter: drop-shadow(1px 1px 3px rgb(168, 168, 168));
+    height: 68px;
+    margin-left: 24px;
+    padding: 0;
+    transition: opacity 0.5s;
+  }
+
+  .logo:hover {
+    opacity: 0.6;
+  }
+
+  .nav-button {
+    background-color: #7B7B7B;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
     height: 72px;
-    justify-content: space-between;
+    letter-spacing: -0.02em;
+    line-height: 23px;
+    transition: background-color 0.5s;
+    width: 168px;
+  }
 
-    .logo{
-        filter:drop-shadow(1px 1px 3px rgb(168, 168, 168));
-        height: 68px;
-        margin-left: 24px;
-        padding: 0;
-        transition: opacity 0.5s;
-    }
-    .logo:hover{
-      opacity: 0.6;
-    }
-
-    .nav-button{
-        background-color: #7B7B7B;
-        border: none;
-        color: white;
-        cursor: pointer;
-        font-family: 'Work Sans';
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        height: 72px;
-        letter-spacing: -0.02em;
-        line-height: 23px;
-        transition: background-color 0.5s;
-        width: 168px;
-      }
-    .nav-button:hover{
-      background-color: $placeholder-bg-color-hover;
-    }
+  .nav-button:hover {
+    background-color: $placeholder-bg-color-hover;
+  }
 }

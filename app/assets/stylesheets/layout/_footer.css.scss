@@ -1,6 +1,6 @@
 @import '../abstracts/variables.css';
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -10,6 +10,7 @@ footer {
   justify-content: center;
   margin-top: 40px;
   width: 100%;
+
   p {
     color: $color-primary;
     font-family: "Inter";
